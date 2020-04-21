@@ -1,0 +1,20 @@
+{
+  "name": "fb-node",
+  "version": "1.0.0",
+  "description": "use node js server to login in app via fb using OAuth 2.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "John Nico Austria",
+  "license": "ISC",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.9.9",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0"
+  }
+}
