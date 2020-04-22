@@ -5,6 +5,7 @@ module.exports = {
   MY_SECRET: "my special secret",
   mongoURI: {
     dev: "mongodb://localhost/fb-node-dev",
-    prod: "mongodb://nico:niconicon1@ds111072.mlab.com:11072/fb-node-prod",
+    prod:
+      "mongodb://niconicon1:niconicon1@ds111072.mlab.com:11072/fb-node-prod",
   },
 };
