@@ -12,11 +12,11 @@ const User = require("./models/user");
 
 const app = express();
 // Get all keys
-const keys = require("./configs/keys");
+const keys = require("./configs/keys_utils");
 
 // Setup mongodb
 mongoose
-  .connect(keys.mongoURI.prod, {
+  .connect(keys.mongoURI.dev, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
