@@ -2,6 +2,8 @@
 
 > Simple app uses Passport's Facebook Strategy and Node js for login
 
+> <a href="https://app-fb-node.herokuapp.com/" target="_blank">Click Here</a> for live demo
+
 ***SCREENSHOTS***
 
 [![INSERT YOUR GRAPHIC HERE](https://i.imgur.com/PcBJrXC.png)]()
@@ -41,7 +43,7 @@
 
 - Follow these instructions to start the app. Use terminal or powershell or command prompt to start the following commands.
 
-> Open terminal to and run command to start the server.
+> Open terminal to and run command to run the database.
 
 ```shell
 $ mongod
@@ -68,7 +70,7 @@ module.exports = {
 };
 ```
 
-> Start the server
+> Run server using this command
 
 ```shell
 $ npm run start
